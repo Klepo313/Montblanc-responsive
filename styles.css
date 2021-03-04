@@ -173,7 +173,11 @@ picture{
     display: none;
 }
 
-.resp-desni-podaci{
+.resp-desni-podatak-topspeed, .resp-desni-podatak-power, .resp-nekiTekst{
+    display: none;
+}
+
+.resp-linije{
     display: none;
 }
 
@@ -260,10 +264,58 @@ picture{
         display: inline;
     }
     
-    .resp-desni-podaci{
+    .resp-desni-podatak-topspeed{
+        width: auto;
+        height: 120px;
         display: flex;
         flex-direction: row;
-        margin-left: -110px;
+        margin-left: 20px;
         margin-top: 15px;
+    }
+
+    .resp-desni-podatak-power{
+        width: 150px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        margin-left: -75px;
+        margin-top: 15px;
+    }
+
+    .resp-linije{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .manje5{
+        height: 12px;
+        margin-top: 43px;
+        margin-left: 50px;
+        color: white;
+    }
+
+    .vise10{
+        height: 12px;
+        margin-top: 43px;
+        margin-left: 225px;
+        color: white;
+    }
+
+    .linijaN{
+        margin-top: -340px;
+        margin-left: -30px;
+        width: 120px;
+        height: 2px;
+        background: #A75B12;
+    }
+    .linijaW{
+        margin-top: -340px;
+        margin-left: -47px;
+        width: 110px;
+        height: 1px;
+        background: #ffffff;
+    }
+    .resp-nekiTekst{
+        
     }
 }
