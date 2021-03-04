@@ -173,7 +173,12 @@ picture{
     display: none;
 }
 
-@media only screen and (max-width:508px){
+.resp-desni-podaci{
+    display: none;
+}
+
+
+@media only screen and (max-width:509px){
 
     .Hostalo, .goldSlika, .vecamainara, .pokret{
         display: none;
@@ -191,18 +196,18 @@ picture{
     .montblanc{
         position: absolute;
         margin: auto;
-        left: 26%;
+        left: 19%;
         padding: 0;
-        width: 200px;
+        width: 230px;
         height: auto;
-        top: 5%;
+        top: 2%;
         background-color: #060507;
     }
 
     picture{
         width: 100%;
         margin-left: -10px;
-        margin-top: 50px;
+        margin-top: 70px;
         display: flex;
         z-index: -3;
     }
@@ -245,15 +250,18 @@ picture{
     }*/
 
     .kineskoSlovo{
-        margin-top: -430px;
+        margin-top: -390px;
         margin-left: -180px;
         width: 640px;
         height: 150px;
     }
 
     .desnotext{
-        display: block;
+        display: inline;
     }
     
-
+    .resp-desni-podaci{
+        display: flex;
+        margin-left: -110px;
+    }
 }
