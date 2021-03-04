@@ -191,10 +191,13 @@ picture{
 
     .montblanc{
         position: absolute;
-        left: 12%;
+        left: 18%;
         margin-top: 80px;
         margin: auto;
         padding: 0;
+        width: 200px;
+        height: auto;
+        background-color: #060507;
     }
 
     picture{
@@ -249,7 +252,7 @@ picture{
     }
 
     .desnotext{
-
+        display: block;
     }
     
 
