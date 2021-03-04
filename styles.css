@@ -239,7 +239,7 @@ picture{
         background: linear-gradient(90deg, #060507 0%, rgba(6, 5, 7, 0) 100%);
         transform: matrix(0, -1, -1, 0, 0, 0);
     }
-
+*/
     .gradient-side{
         position: absolute;
         width: 40px;
@@ -247,7 +247,7 @@ picture{
         z-index: -1;
         background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
         transform: matrix(-1, 0, 0, 1, 0, 0);
-    }*/
+    }
 
     .kineskoSlovo{
         margin-top: -390px;
@@ -262,6 +262,8 @@ picture{
     
     .resp-desni-podaci{
         display: flex;
+        flex-direction: row;
         margin-left: -110px;
+        margin-top: 15px;
     }
 }
