@@ -173,7 +173,7 @@ picture{
     display: none;
 }
 
-@media only screen and (max-width:401px){
+@media only screen and (max-width:508px){
 
     .Hostalo, .goldSlika, .vecamainara, .pokret{
         display: none;
@@ -182,7 +182,6 @@ picture{
     *{
         padding: 0;
         margin: 0;
-        display: block;
         display: flex;
         flex-direction: column;
         background-color: #060507;
@@ -191,22 +190,24 @@ picture{
 
     .montblanc{
         position: absolute;
-        left: 18%;
-        margin-top: 80px;
         margin: auto;
+        left: 26%;
         padding: 0;
         width: 200px;
         height: auto;
+        top: 5%;
         background-color: #060507;
     }
 
     picture{
-        margin-top: 100px;
+        width: 100%;
+        margin-left: -10px;
+        margin-top: 50px;
         display: flex;
         z-index: -3;
     }
 
-   .gradient-top-logo{
+  /* .gradient-top-logo{
         position: absolute;
         margin-top: -320px;
         width: 110px;
@@ -241,13 +242,12 @@ picture{
         z-index: -1;
         background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
         transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+    }*/
 
     .kineskoSlovo{
-        display: flex;
-        margin-top: -400px;
-        margin-left: -160px;
-        width: 570px;
+        margin-top: -430px;
+        margin-left: -180px;
+        width: 640px;
         height: 150px;
     }
 
