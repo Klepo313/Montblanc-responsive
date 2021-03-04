@@ -387,7 +387,9 @@ picture{
     /***********************************************/
 
     .resp-kotac{
+        margin-top: 70px;
         display: block;
+        width: 90%;
     }
 
 
