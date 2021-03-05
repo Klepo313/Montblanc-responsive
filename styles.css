@@ -177,7 +177,7 @@ picture{
     display: none;
 }
 
-.resp-linije, .resp-buy-buttons, .resp-kotac{
+.resp-linije, h1,.resp-buy-buttons, .resp-kotac, .resp-kruzno-cudo{
     display: none;
 }
 
@@ -392,6 +392,27 @@ picture{
         width: 90%;
     }
 
+    .resp-kruzno-cudo{
+        display: block;
+        margin-left: 150px; 
+        margin-top: -120px;
+        width: 400px;
+        height: 400px;
+        opacity: 0.5;
+    }
+
+    h1{
+        font-style: normal;
+        margin-top: -160px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 183%;
+        /* or 33px */
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin-left: -95px; 
+    }
 
 
 
