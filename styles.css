@@ -301,14 +301,14 @@ picture{
     }
 
     .linijaN{
-        margin-top: -330px;
+        margin-top: -322px;
         margin-left: 0px;
         width: 120px;
-        height: 2px;
+        height: 3px;
         background: #A75B12;
     }
     .linijaW{
-        margin-top: -330px;
+        margin-top: -320px;
         margin-left: -17px;
         width: 110px;
         height: 1px;
@@ -389,7 +389,7 @@ picture{
     .resp-kotac{
         margin-top: 70px;
         display: block;
-        width: 90%;
+        width: 100%;
     }
 
     .resp-kruzno-cudo{
@@ -398,7 +398,8 @@ picture{
         margin-top: -120px;
         width: 400px;
         height: 400px;
-        opacity: 0.5;
+        background: radial-gradient(50% 50% at 50% 50%, #060507 0%, rgba(6, 5, 7, 0) 100%);
+        opacity: 0.5;       
     }
 
     h1{
@@ -411,7 +412,7 @@ picture{
         display: flex;
         align-items: center;
         color: #FFFFFF;
-        margin-left: -95px; 
+        margin-left: -75px; 
     }
 
 
