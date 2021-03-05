@@ -1,0 +1,425 @@
+*{
+    background: #060507;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.headerclass{
+    display: flex;
+    flex-direction: row;
+}
+.montblanc{
+    padding-top: 55px;
+    padding-left: 64px;
+}
+.Hostalo{
+    padding-top: 79px;
+    padding-left: 128px;
+}
+.HostaloChild{
+    padding-right: 60px;
+    cursor: pointer;
+}
+.motor{
+    position: absolute;
+    left: 0px;
+    top: 266px;   
+    z-index: -10;
+    margin-top: -5%; 
+}
+.kolo{
+    left: 1000px;
+    top: 323px;
+    z-index: -3;
+}
+.mtnblack{
+    position: absolute;
+    left: 850px;
+    top: 210px;
+    background-color: #050506;
+}
+.mainara{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 1032px;
+    padding-left: 0px;
+    padding-top: 60px;
+}
+.goldSlika{
+    position: relative;
+    padding-left: 35px;
+}
+.vecamainara{
+    display: flex;
+    flex-direction: row;
+}
+.desnocudomainDiv{
+    padding-left: 41px;
+    margin-top: -15%;
+}
+.desnotext{
+    position: absolute;
+    left: 1400px;
+    top: 400px;
+    padding-top: 50px;
+    z-index: 11;
+}
+.desnoCudoDiv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    right: 0;
+}
+
+.doleDiv{
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+.kinezi{
+    position: absolute;
+    display: flex;
+    top: 750px;
+    background: none;
+    z-index: 10;
+}
+.kineskoSlovo{
+    background: none;
+}
+.pokret{
+    display: flex;
+    flex-direction: row;
+}
+.dvojka{
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 50px;
+    top: 1000px;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.linijaN{
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    left: 150px;
+    top: 1020px;
+    background: #A75B12;
+    z-index: 7;
+}
+.linijaW{
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    left: 230px;
+    top: 1020px;
+    background: #ffffff;
+    z-index: 6;
+}
+.desetka{
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 400px;
+    top: 1000px;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.textNeki{
+    position: absolute;
+    width: 406px;
+    height: 92px;
+    left: 535px;
+    top: 987px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.zadnjekolo{
+    position: absolute;
+    left: 1117px;
+    top: 867px;
+    z-index: 9;
+}
+picture{
+    display: none;
+}
+
+.resp-desni-podatak-topspeed, .resp-desni-podatak-power, .resp-nekiTekst{
+    display: none;
+}
+
+.resp-linije, h1,.resp-buy-buttons, .resp-kotac, .resp-kruzno-cudo{
+    display: none;
+}
+
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+
+@media only screen and (max-width:509px){
+
+    .Hostalo, .goldSlika, .vecamainara, .pokret{
+        display: none;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #060507;
+        ;
+    }
+
+    .montblanc{
+        position: absolute;
+        margin: auto;
+        left: 25%;
+        padding: 0;
+        width: 230px;
+        height: auto;
+        top: 2%;
+        background-color: #060507;
+    }
+
+    picture{
+        margin-left: -10px;
+        margin-top: 70px;
+        display: flex;
+        z-index: -3;
+    }
+
+  /* .gradient-top-logo{
+        position: absolute;
+        margin-top: -320px;
+        width: 110px;
+        height: 100%;
+        background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        z-index: -1;
+        transform: rotate(90deg);
+    }
+    .gradient-top-logo2{
+        position: absolute;
+        margin-top: -360px;
+        width: 190px;
+        height: 100%;
+        background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        z-index: -2;
+        transform: rotate(90deg);
+    }
+    
+    .gradient-bottom-logo{
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        z-index: -2;
+        background: linear-gradient(90deg, #060507 0%, rgba(6, 5, 7, 0) 100%);
+        transform: matrix(0, -1, -1, 0, 0, 0);
+    }
+*/
+    .gradient-side{
+        position: absolute;
+        width: 40px;
+        z-index: -1;
+        background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .kineskoSlovo{
+        position: absolute;
+        margin-top: -470px;
+        margin-left: -230px;
+        width: 800px;
+        height: 300px;
+    }
+
+    .desnotext{
+        display: inline;
+    }
+    
+    .resp-desni-podatak-topspeed{
+        width: auto;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 48px;
+        margin-top: 25px;
+    }
+
+    .resp-desni-podatak-power{
+        width: 150px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        margin-left: -75px;
+        margin-top: 25px;
+    }
+
+    .resp-linije{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .manje5{
+        height: 12px;
+        margin-top: 43px;
+        margin-left: 80px;
+        color: white;
+    }
+
+    .vise10{
+        height: 12px;
+        margin-top: 43px;
+        margin-left: 230px;
+        color: white;
+    }
+
+    .linijaN{
+        margin-top: -322px;
+        margin-left: 0px;
+        width: 120px;
+        height: 3px;
+        background: #A75B12;
+    }
+    .linijaW{
+        margin-top: -320px;
+        margin-left: -17px;
+        width: 110px;
+        height: 1px;
+        background: #ffffff;
+    }
+    p{
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 200%;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .resp-nekiTekst{
+        position: relative;
+        width: 320px;
+        height: 104px;
+        left: 80px;
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .resp-buy-buttons{
+        margin-top: 100px;
+        left: 48px;
+        width: 400px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hrtBuyBtn{
+        position: relative;
+        left: 30px;
+        padding: 0px;
+        width: 72px;
+        height: 72px;
+        border-right: none;
+        border-radius: 32px 0px;
+        border: solid 2px transparent;
+        border-color: #A45410;
+        /*border-color: #A45410;*/
+    }
+    .addToCartBtn{
+        margin-left: 70px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 183%;
+        /* or 33px */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #060507;
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background: 
+        linear-gradient(96.17deg, #A45410 0%, #FBEFB7 100%);
+        border-radius: 32px 0px;
+        border: none;
+    }
+
+    .minihearth{
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 45%;
+    }
+
+    /***********************************************/
+    /***********************************************/
+
+    .resp-kotac{
+        margin-top: 70px;
+        display: block;
+        width: 100%;
+    }
+
+    .resp-kruzno-cudo{
+        display: block;
+        margin-left: 150px; 
+        margin-top: -120px;
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(50% 50% at 50% 50%, #060507 0%, rgba(6, 5, 7, 0) 100%);
+        opacity: 0.5;       
+    }
+
+    h1{
+        font-style: normal;
+        margin-top: -160px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 183%;
+        /* or 33px */
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin-left: -75px; 
+    }
+
+
+
+
+
+
+}
