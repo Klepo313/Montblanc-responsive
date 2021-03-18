@@ -248,7 +248,6 @@ picture{
     }
 */
     .gradient-side{
-        position: absolute;
         width: 40px;
         z-index: -1;
         background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
@@ -256,7 +255,6 @@ picture{
     }
 
     .kineskoSlovo{
-        position: absolute;
         margin-top: -470px;
         margin-left: -230px;
         width: 800px;
