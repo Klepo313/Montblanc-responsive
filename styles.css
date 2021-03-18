@@ -26,7 +26,6 @@ header{
     cursor: pointer;
 }
 .motor{
-    position: absolute;
     left: 0px;
     top: 266px;   
     z-index: -10;
@@ -38,7 +37,6 @@ header{
     z-index: -3;
 }
 .mtnblack{
-    position: absolute;
     left: 850px;
     top: 210px;
     background-color: #050506;
@@ -255,7 +253,7 @@ picture{
     }
 
     .kineskoSlovo{
-        margin-top: -470px;
+        margin-top: -480px;
         margin-left: -230px;
         width: 800px;
         height: 300px;
@@ -358,9 +356,9 @@ picture{
     }
     .addToCartBtn{
         margin-left: 70px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'TS Block', sans-serif;
         font-style: normal;
-        font-weight: 500;
+        font-weight: bold;
         font-size: 18px;
         line-height: 183%;
         /* or 33px */
