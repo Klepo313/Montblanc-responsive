@@ -10,6 +10,7 @@ header{
     flex-direction: row;
 }
 .headerclass{
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
 }
@@ -211,6 +212,7 @@ picture{
     }
 
     picture{
+        overflow-x: hidden;
         margin-left: -10px;
         margin-top: 70px;
         display: flex;
