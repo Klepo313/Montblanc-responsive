@@ -83,6 +83,7 @@ header{
 }
 
 .doleDiv{
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     background: none;
@@ -267,7 +268,8 @@ picture{
     }
 
     .desnotext{
-        display: inline;
+        overflow-x: hidden;
+        display: flex;
     }
     
     .resp-desni-podatak-topspeed{
@@ -391,6 +393,7 @@ picture{
     /***********************************************/
 
     .resp-kotac{
+        overflow-x: hidden;
         margin-top: 70px;
         display: block;
         width: 100%;
