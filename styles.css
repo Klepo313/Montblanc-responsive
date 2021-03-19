@@ -253,6 +253,7 @@ picture{
     }
 
     .kineskoSlovo{
+        overflow-x: hidden;
         margin-top: -480px;
         margin-left: -230px;
         width: 800px;
