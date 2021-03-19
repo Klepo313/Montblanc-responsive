@@ -416,7 +416,8 @@ picture{
     .resp-slika-motora{
         display: flex;
         left: -66px;
-        top: 73px;
+        top: 273px;
+        margin-top: 430px;
     }
 
 }
